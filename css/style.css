@@ -9,8 +9,11 @@
 }
 /* Navbar Related style */
 .navbar{
-    background: pink;
+    margin-top: 50px;
     padding: 0px;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
 }
 .navbar .navbar-nav{
     gap: 65px;
@@ -39,3 +42,81 @@
 }
 
 /* Bannar related style */
+.bannar_slider_one{
+    background-image: url(../images/bannar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannar_main_slider .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.bannar_slider_two{
+    background-image: url(../images/bannar-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannar_slider_three{
+    background-image: url(../images/bannar-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bannar_slider_four{
+    background-image: url(../images/bannar-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* bannar overay text related style */
+.bannar_title{
+    color: #FFF;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 315px;
+}
+.bannar_description{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 621px;
+    margin: 45px auto;
+    
+}
+.bannar_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 176px;
+}
+/* ======uporer toko bannar image ar jonno======= */
+.bannar_main_slider ul{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 53px;
+    display: flex;
+    column-gap: 20px;
+}
+.bannar_main_slider ul li{
+    list-style: none;
+
+}
+.bannar_main_slider ul li button{
+    font-size: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 8px solid #4756DF;
+    background: #4756DF;
+}
+.bannar_main_slider ul .slick-active button{
+    border: 8px solid #fff;
+}
