@@ -71,7 +71,6 @@
     background-size: cover;
     background-position: center;
 }
-
 /* bannar overay text related style */
 .bannar_title{
     color: #FFF;
@@ -120,3 +119,39 @@
 .bannar_main_slider ul .slick-active button{
     border: 8px solid #fff;
 }
+/* Our succetion section related styles */
+#success_part{
+    margin-top: 171px;
+}
+#success_part .container{
+    border-radius: 20px;
+    background: #E0FFF9;
+    padding: 85px 25px 86px 38px;  
+}
+#success_part .text h3{
+    color: var(--primary-color, #6A4DF4);
+    font-size: 25px;
+    font-weight: 500;
+}
+#success_part .text h2{
+    color: var(--dark-01, #151515);
+    font-size: 35px;
+    font-weight: 600;
+    width: 387px;
+}
+#success_part .main_box{
+    display: flex;
+    justify-content: end;
+    column-gap: 110px;
+}
+#success_part .main_box .box h2{
+    color: var(--dark-01, #151515);
+    font-size: 50px;
+    font-weight: 700;
+}
+#success_part .main_box .box p{
+    color: var(--dark-03, #737373);
+    font-size: 20px;
+    font-weight: 500;
+}
+
