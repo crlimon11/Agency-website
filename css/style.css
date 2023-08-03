@@ -280,7 +280,9 @@
     border-radius: 20px;
 }
 /* Card slider related styles */
-
+#card_slider .card_main_slider{
+    position: relative;
+}
 #card_slider .title p{
     width: 620px;
     padding-top: 20px;
@@ -288,24 +290,35 @@
 }
 /* slider related */
 .card_main_slider .fa-angle-left{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
     position: absolute;
+    left: 12px;
     top: 50%;
     color: #fff;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     background: #4756DF;
     z-index: 999;
-    padding: 20px;
+    
     border-radius: 50%;
 }
 .card_main_slider .fa-angle-right{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 100%;
+    transform: translate(50%, -50%);
+    right: 12px;
     color: #fff;
     background: #4756DF;
     z-index: 999;
-    padding: 20px;
-    border-radius: 50%;
 }
 
 #card_slider{
@@ -317,12 +330,11 @@
 #card_slider .card_main_slider .card_slider{
     padding: 54px 58px;
     border-radius: 30px;
-    background: #fff;
     width: 424px;
     margin: 0 12px;
     transition: all linear .4s;
 }
-#card_slider .card_main_slider .card_slider:hover{
+#card_slider .card_main_slider .slick-center{
     background: #F4EFEF;
 }
 #card_slider .card_main_slider .card_slider p{
@@ -388,11 +400,12 @@
 }
 #development_part .flexible_form input{
     width: 450px;
-height: 64px;
-border-radius: 10px;
-border: 1px solid var(--dark-06, #E8E8E8);
-padding: 19px 303px 19px 23px;
-margin-bottom: 20px;
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-06, #E8E8E8);
+    padding: 19px 0 19px 23px;
+    margin-bottom: 20px;
+    outline: none;
 }
 #development_part .flexible_form button{
     width: 450px;
@@ -412,6 +425,8 @@ footer{
 footer .list_item{
     display: flex;
     column-gap: 120px;
+    justify-content: flex-end;
+
 }
 footer .list_item li{
     list-style: none;
