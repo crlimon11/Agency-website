@@ -63,7 +63,7 @@
     background-position: center;
 }
 .bannar_main_slider .overlay{
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.625);
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -94,6 +94,7 @@
     width: 950px;
     margin: 0 auto;
     margin-top: 315px;
+    
 }
 .bannar_description{
     color: #FFF;
@@ -140,8 +141,9 @@
 #success_part .container{
     border-radius: 20px;
     background: #E0FFF9;
-    padding: 85px 25px 86px 38px;  
+    padding: 85px 25px 86px 38px;
 }
+
 #success_part .text h3{
     color: var(--primary-color, #6A4DF4);
     font-size: 25px;
@@ -202,7 +204,7 @@
     color: var(--dark-03, #737373);
     font-size: 16px;
     font-weight: 400;
-    width: 326px;
+    width: auto;
     margin: 0 auto;
 }
 /* Recent Work related styles */
@@ -212,6 +214,8 @@
 #recent_work{
     padding: 150px 0;
     background: #F3F3F3;
+    border-radius: 20px;
+    margin: 0 5px;
 }
 #recent_work .title{
     padding-bottom: 106px;
@@ -365,6 +369,8 @@
 #development_part{
     background: #F3F3F3;
     padding: 150px 0;
+    border-radius: 20px;
+    margin:0 5px;
 }
 #development_part .development_text{
     margin-top: 120px;
